@@ -9,13 +9,14 @@
   
   inputs.src-pinggraph-master.flake = false;
   inputs.src-pinggraph-master.owner = "SolitudeSF";
-  inputs.src-pinggraph-master.ref   = "refs/heads/master";
+  inputs.src-pinggraph-master.ref   = "master";
   inputs.src-pinggraph-master.repo  = "pinggraph";
   inputs.src-pinggraph-master.type  = "github";
   
   inputs."cligen".owner = "nim-nix-pkgs";
   inputs."cligen".ref   = "master";
   inputs."cligen".repo  = "cligen";
+  inputs."cligen".dir   = "v1_5_22";
   inputs."cligen".type  = "github";
   inputs."cligen".inputs.nixpkgs.follows = "nixpkgs";
   inputs."cligen".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
