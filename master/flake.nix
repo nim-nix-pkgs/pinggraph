@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-pinggraph-master.flake = false;
+  inputs.src-pinggraph-master.ref   = "refs/heads/master";
   inputs.src-pinggraph-master.owner = "SolitudeSF";
-  inputs.src-pinggraph-master.ref   = "master";
   inputs.src-pinggraph-master.repo  = "pinggraph";
   inputs.src-pinggraph-master.type  = "github";
   
