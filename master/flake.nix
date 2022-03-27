@@ -11,6 +11,7 @@
   inputs.src-pinggraph-master.ref   = "refs/heads/master";
   inputs.src-pinggraph-master.owner = "SolitudeSF";
   inputs.src-pinggraph-master.repo  = "pinggraph";
+  inputs.src-pinggraph-master.dir   = "";
   inputs.src-pinggraph-master.type  = "github";
   
   inputs."cligen".owner = "nim-nix-pkgs";
