@@ -11,7 +11,6 @@
   inputs.src-pinggraph-v0_1_4.ref   = "refs/tags/v0.1.4";
   inputs.src-pinggraph-v0_1_4.owner = "SolitudeSF";
   inputs.src-pinggraph-v0_1_4.repo  = "pinggraph";
-  inputs.src-pinggraph-v0_1_4.dir   = "";
   inputs.src-pinggraph-v0_1_4.type  = "github";
   
   inputs."cligen".owner = "nim-nix-pkgs";
